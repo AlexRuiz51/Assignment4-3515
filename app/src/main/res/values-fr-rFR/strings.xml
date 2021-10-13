@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ImageAct</string>
+    <string name="instructions">Cliquez sur une image ci-dessous pour voir</string>
+    <string name="championNunuandWillump">Nunu et Willump</string>
+    <string name="championDescription">"La league des légendes Champion: "</string>
+</resources>
