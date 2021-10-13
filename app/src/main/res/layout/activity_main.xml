@@ -8,226 +8,262 @@
     tools:context=".MainActivity">
 
     <GridLayout
-        android:layout_width="0dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/gridLayout3"
+        android:layout_width="381dp"
+        android:layout_height="561dp"
+        android:layout_margin="10dp"
+        android:columnCount="2"
+        android:rowCount="5"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_height="0dp"
-        android:columnCount = "2"
-        android:rowCount = "5"
-        android:layout_margin="10dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cElise"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="0dp"
-            android:layout_margin="10dp"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            >
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <ImageView
                     android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/elise"
-                    android:layout_height="100dp"/>
+                    android:contentDescription="@string/championElise"
+                    android:src="@drawable/elise" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cEvelynn"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="0dp"
-            android:layout_margin="10dp"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            >
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <ImageView
                     android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/evelynn"
-                    android:layout_height="100dp"/>
+                    android:contentDescription="@string/championElise"
+                    android:src="@drawable/evelynn" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cKayn"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="0dp"
-            android:layout_margin="10dp"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            >
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <ImageView
                     android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/kayn"
-                    android:layout_height="100dp"/>
+                    android:contentDescription="@string/championKayn"
+                    android:src="@drawable/kayn" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cKhazix"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="0dp"
-            android:layout_margin="10dp"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            >
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <ImageView
                     android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/khazix"
-                    android:layout_height="100dp"/>
+                    android:contentDescription="@string/championKhaZix"
+                    android:src="@drawable/khazix" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cNunuWill"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="0dp"
-            android:layout_margin="10dp"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            >
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <ImageView
                     android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/nunuwill"
-                    android:layout_height="100dp"/>
+                    android:contentDescription="@string/championNunuandWillump"
+                    android:src="@drawable/nunuwill" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cRammus"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="0dp"
-            android:layout_margin="10dp"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            >
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <ImageView
                     android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/rammus"
-                    android:layout_height="100dp"/>
+                    android:contentDescription="@string/championRammus"
+                    android:src="@drawable/rammus" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cRengar"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="0dp"
-            android:layout_margin="10dp"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            >
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <ImageView
                     android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/rengar"
-                    android:layout_height="100dp"/>
+                    android:contentDescription="@string/championRengar"
+                    android:src="@drawable/rengar" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cShen"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="0dp"
-            android:layout_margin="10dp"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            >
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <ImageView
                     android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/shen"
-                    android:layout_height="100dp"/>
+                    android:contentDescription="@string/championShen"
+                    android:src="@drawable/shen" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cSwain"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="0dp"
-            android:layout_margin="10dp"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            >
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <ImageView
                     android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/swain"
-                    android:layout_height="100dp"/>
+                    android:contentDescription="@string/championSwain"
+                    android:src="@drawable/swain" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cWarwick"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="0dp"
-            android:layout_margin="10dp"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            >
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <ImageView
                     android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/warwick"
-                    android:layout_height="100dp"/>
+                    android:contentDescription="@string/championWarwick"
+                    android:src="@drawable/warwick" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
     </GridLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="383dp"
+        android:layout_height="28dp"
+        android:text="@string/instructions"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.804" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

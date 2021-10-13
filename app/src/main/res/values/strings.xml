@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">ImageAct</string>
+    <string name="instructions">Click an Image Below to View</string>
+    <string name="championElise" translatable="false">Elise</string>
+    <string name="championEvelynn" translatable="false">Evelynn</string>
+    <string name="championKayn" translatable="false">Kayn</string>
+    <string name="championKhaZix" translatable="false">Kha\'Zix</string>
+    <string name="championNunuandWillump">Nunu &amp; Willump</string>
+    <string name="championRammus" translatable="false">Rammus</string>
+    <string name="championRengar" translatable="false">Rengar</string>
+    <string name="championShen" translatable="false">Shen</string>
+    <string name="championSwain" translatable="false">Swain</string>
+    <string name="championWarwick" translatable="false">Warwick</string>
+    <string name="championDescription">League of Legends Champion:\u0020</string>
 </resources>
