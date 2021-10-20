@@ -35,6 +35,7 @@
                 android:layout_height="match_parent">
 
                 <ImageView
+                    android:id="@+id/elise"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_centerInParent="true"
@@ -265,8 +266,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.804" />
+
     <androidx.fragment.app.FragmentContainerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/fragmentSelect"/>
+        android:id="@+id/fragmentContainer"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
