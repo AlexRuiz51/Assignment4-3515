@@ -1,39 +1,21 @@
 package edu.temple.imageactivity
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager
-import edu.temple.imageactivity.databinding.ActivityMainBinding
-import edu.temple.imageactivity.fragments.FragmentDisplay
 import edu.temple.imageactivity.fragments.FragmentSelect
 
-class MainActivity : AppCompatActivity(), Communicator {
-    lateinit var binding: ActivityMainBinding
-
+class MainActivity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        setContentView(R.layout.activity_main)
         replaceFragment(FragmentSelect())
-        /*LEGACY
-        setContentView(R.layout.activity_main)*/
-        //onClickListener()
     }
-    private fun replaceFragment(fragment : Fragment){
+    private fun AppCompatActivity.replaceFragment(fragment : Fragment){
         val fragmentManager = supportFragmentManager
-        val fragmentTransaction = fragmentManager.beginTransaction()
-        fragmentTransaction.replace(R.id.fragmentContainer, fragment)
-        fragmentTransaction.commit()
-    }
-    fun onClickListener(){
-        //cElise.setOnClickListener{
-            //startActivity(Intent(this, ChampionActivity::class.java).putExtra("name", resources.getString(R.string.championElise)).putExtra("image",R.drawable.elise))
-        //}
-    }
-
-    override fun passInfo(cName: String, cImage: Int) {
-
+        val transaction = fragmentManager.beginTransaction()
+        transaction.replace(R.id.fragmentContainer, fragment)
+        transaction.addToBackStack(null)
+        transaction.commit()
     }
 }
