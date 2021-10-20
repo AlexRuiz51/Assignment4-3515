@@ -9,7 +9,7 @@ import edu.temple.imageactivity.databinding.ActivityMainBinding
 import edu.temple.imageactivity.fragments.FragmentDisplay
 import edu.temple.imageactivity.fragments.FragmentSelect
 
-class MainActivity : AppCompatActivity(), DataPass {
+class MainActivity : AppCompatActivity(), Communicator {
     lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity(), DataPass {
         //}
     }
 
-    override fun passInfo(cName: String, image: Int) {
+    override fun passInfo(cName: String, cImage: Int) {
 
     }
 }
